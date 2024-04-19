@@ -40,7 +40,7 @@ hijri = f"{Gregorian.today().to_hijri()} - {hijri_day.text}"
 LOGS = logging.getLogger(__name__)
 
 DEVS = [
-    5693914475,
+    6331041677,
 ]
 DEL_TIME_OUT = 10
 normzltext = "1234567890"
@@ -200,7 +200,7 @@ async def _(event):
     time_name.append("off")
     await sedthon(
         functions.account.UpdateProfileRequest(
-            first_name=" - @BHthon"
+            first_name=" - @E9N99"
         )
     )
 
@@ -484,7 +484,7 @@ async def _(event):
 
         return
 
-    chat = "@QuotLyBot"
+    chat = "@E9N99"
 
     sender = reply_message.sender
 
@@ -510,7 +510,7 @@ async def _(event):
 
         except YouBlockedUserError:
 
-            await event.reply("```الغي الحظر من (@QuotLyBot)```")
+            await event.reply("```الغي الحظر من (@@E9N99)```")
 
             return
         else:
@@ -537,7 +537,7 @@ async def _(event):
 
         return
 
-    chat = "@QuotLyBot"
+    chat = "@E9N99"
 
     sender = reply_message.sender
 
@@ -557,7 +557,7 @@ async def _(event):
             await sedthon.send_message(chat, msg)
             response = await response
         except YouBlockedUserError:
-            await event.reply("```الغي الحظر من (@QuotLyBot)```")
+            await event.reply("```الغي الحظر من (@E9N99)```")
             return
         else:
             await event.delete()
@@ -592,8 +592,8 @@ async def _(event):
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
 𝐰𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐜𝐡𝐞𝐜𝐤𝐞𝐫 𝐬𝐨𝐮𝐫𝐜𝐞 𝐛𝐡𝐭𝐡𝐨𝐧
-𝐝𝐞𝐯 : @myAbnBashar 
-𝐜𝐡𝐚𝐧𝐧𝐞𝐥 : @bhthon
+𝐝𝐞𝐯 : @VPN_61
+𝐜𝐡𝐚𝐧𝐧𝐞𝐥 : @E9N99
 𝐫𝐞𝐥𝐞𝐚𝐬𝐞 : 1.5
 𝐥𝐞𝐭 𝐭𝐡𝐞𝐦 𝐥𝐚𝐮𝐠𝐡, 𝐭𝐡𝐞𝐲 𝐰𝐢𝐥𝐥 𝐧𝐨𝐭 𝐫𝐞𝐚𝐜𝐡 𝐦𝐞
 
@@ -690,7 +690,7 @@ async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @myAbnBashar
+      - @@E9N99
 ''', reply_to=event)
 
 
@@ -699,7 +699,7 @@ async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @myAbnBashar
+      - @E9N99
 ''', reply_to=event)
 
 
@@ -708,7 +708,7 @@ async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @myAbnBashar
+      - @E9N99
 ''', reply_to=event)
 
 
@@ -717,7 +717,7 @@ async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @myAbnBashar
+      - @E9N99
 ''', reply_to=event)
 
 
@@ -729,7 +729,7 @@ async def _(event):
     res = (end - start).microseconds / 1000
     await event.edit(f"""
 `-- -- -- -- -- -- -- -- -- --`
-- @myAbnBashar - @bhthon
+- @E9N99
 - البنك : `{res}`
 `-- -- -- -- -- -- -- -- -- --`"""
                      )
